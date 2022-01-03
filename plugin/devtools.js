@@ -162,8 +162,6 @@ var EntityViewer;
                         ["Identifier:", rideObject.identifier.toString()],
                         ["Legacy id:", rideObject.legacyIdentifier.toString()],
                         ["Name:", rideObject.name.toString()],
-                        //["Name:", rideObject.exc],
-                        ["", ""],
                         ["Capacity:", rideObject.capacity.toString()],
                         ["Flags:", rideObject.flags.toString()],
                         ["Ride type:", rideObject.rideType.map(function (r) { return (r == null) ? "null" : r.toString(); }).toString()],

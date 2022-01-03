@@ -1,0 +1,2 @@
+// Mod powered by https://github.com/wisnia74/openrct2-typescript-mod-template - MIT license
+!(function(){'use strict';var e=function(){return map.rides.filter((function(e){return'ride'===e.classification}))};registerPlugin({name:'AUTO_COLOR_RIDES',version:'1.0',authors:['thesm17'],type:'local',licence:'MIT',main:function(){var o=e();o[0].colourSchemes[0]={main:1,additional:10,supports:8},console.log('Color: '+JSON.stringify(o[0].colourSchemes[0])),makeRideBlack(o[0]),console.log(o[0].colourSchemes)}})})();
